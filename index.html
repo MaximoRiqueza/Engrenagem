@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Blue Lock | Hugo Analysis</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Pantalla inicial -->
+
+    <div id="intro">
+
+        <h1>ENGRENAGEM</h1>
+
+        <h3>SISTEMA DE ANÁLISE</h3>
+
+        <button id="playBtn">
+
+            INICIAR ANÁLISE
+
+        </button>
+
+        <p class="tip">
+
+            Presione ESPACIO para activar el modo análisis
+
+        </p>
+
+    </div>
+
+    <!-- Texto principal -->
+
+    <div id="mensaje"></div>
+
+    <!-- Tiempo -->
+
+    <div id="tiempo">
+
+        00:00
+
+    </div>
+
+    <!-- Destello -->
+
+    <div id="flash"></div>
+
+    <!-- HUD -->
+
+    <div id="hud">
+
+        <h2>ANÁLISE</h2>
+
+        <hr>
+
+        <p>
+
+            PRECISÃO
+
+        </p>
+
+        <p id="porcentaje">
+
+            87%
+
+        </p>
+
+        <hr>
+
+        <p>
+
+            DESTINO
+
+        </p>
+
+        <p id="destino">
+
+            CALCULANDO...
+
+        </p>
+
+        <hr>
+
+        <p id="cantidadPecas">
+
+            PEÇAS : 50
+
+        </p>
+
+    </div>
+
+    <!-- Canvas -->
+
+    <canvas id="gameCanvas"></canvas>
+
+    <!-- Música -->
+
+    <audio id="musica">
+
+        <source
+            src="audio/engrenagem.mp3"
+            type="audio/mpeg">
+
+    </audio>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
